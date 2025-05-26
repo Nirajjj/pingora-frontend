@@ -1,0 +1,23 @@
+.chat-container {
+  display: flex;
+  width: 100%;
+  height: calc(100vh - 100px);
+  background-color: var(--bg-color);
+}
+
+.welcome-screen {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+@media (max-width: 768px) {
+  .chat-app {
+    flex-direction: column;
+    height: 100vh;
+  }
+}
